@@ -63,6 +63,7 @@ public sealed class ItemList
             new CraftableFilter(),
             new DesynthableFilter(),
             new SoldByVendorFilter(),
+            new GlamourOutfitFilter(),
             new BooleanFilter("Can Be HQ", "Has HQ", "No HQ", BooleanFilter.CheckFunc("CanBeHq")),
             new BooleanFilter("Unique", "Unique", "Not Unique", BooleanFilter.CheckFunc("IsUnique")),
         ];
